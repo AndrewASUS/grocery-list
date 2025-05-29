@@ -7,7 +7,7 @@ const Navbar = () => {
         <header className="bg-error-content/50 border-b border-base-content/30">
             <div className="mx-auto max-w-7xl p-4">
                 <div className="flex items-center justify-between">
-                    <h1 className="text-4xl font-extrabold text-blue-400 font-mono tracking-tight">
+                    <h1 className="text-5xl font-extrabold text-blue-400 font-mono tracking-tight">
                         ITEMS
                     </h1>
                     <div className="flex items-center gap-4">
