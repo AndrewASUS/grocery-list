@@ -14,6 +14,7 @@ const HomePage = () => {
 
   useEffect(() => {
     const fetchItems = async () => {
+      setLoading(true)
       try {
         const res = await api.get("/items")
         console.log(res.data)
@@ -21,6 +22,7 @@ const HomePage = () => {
       } catch (error) {
         console.log("Error in fetchItems function, HomePage.jsx", error)
         toast.error("Failed to load items")
+      } finally {
         setLoading(false)
       }
     }
