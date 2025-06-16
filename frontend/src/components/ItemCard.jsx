@@ -32,9 +32,6 @@ const ItemCard = ({ item, setItems }) => {
         >
             <div className="card-body">
                 <h3 className="card-title text-base-content">{item.entry}</h3>
-                <p className="text-base-content/70 line-clamp-3">
-                    {item.entry}
-                </p>
                 <div className="card-actions justify-between items-center mt-4">
                     <div className="flex items-center gap-1">
                         <PenSquareIcon className="size-4" />
