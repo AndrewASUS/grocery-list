@@ -4,7 +4,7 @@ import cors from "cors" // Middleware for sharing frontend/bckend in developmnt
 import { connectDB } from "./config/db.js"
 import itemRoutes from "./routes/item.route.js"
 import path from "path"
-import job from "./config/config.js"
+import job from "./config/cron.js"
 
 
 dotenv.config()
